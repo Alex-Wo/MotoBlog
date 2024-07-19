@@ -1,0 +1,49 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="10">
+            <item index="0" class="java.lang.String" itemvalue="images" />
+            <item index="1" class="java.lang.String" itemvalue="vertical-align" />
+            <item index="2" class="java.lang.String" itemvalue="css" />
+            <item index="3" class="java.lang.String" itemvalue="blog:post_share" />
+            <item index="4" class="java.lang.String" itemvalue="blog:post_list_by_tag" />
+            <item index="5" class="java.lang.String" itemvalue="tag.name" />
+            <item index="6" class="java.lang.String" itemvalue="dashboard" />
+            <item index="7" class="java.lang.String" itemvalue="section" />
+            <item index="8" class="java.lang.String" itemvalue="login" />
+            <item index="9" class="java.lang.String" itemvalue="logout" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+          <option value="E722" />
+          <option value="E116" />
+          <option value="E114" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="images.models.Image.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>
